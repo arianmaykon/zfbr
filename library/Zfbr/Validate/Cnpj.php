@@ -37,7 +37,7 @@ class Validate_Cnpj extends Zend_Validate_Abstract
 	public function __construct($skipFormat = false) {
 		$this->_skipFormat = $skipFormat;
 	}
-	
+
 	/**
 	 * verifica se o cnpj é válido
 	 *
