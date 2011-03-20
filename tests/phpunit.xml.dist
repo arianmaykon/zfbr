@@ -1,0 +1,5 @@
+<phpunit bootstrap="./bootstrap.php">
+    <testsuite name="Zfbr Test Suite">
+        <directory>./library</directory>
+    </testsuite>
+</phpunit>

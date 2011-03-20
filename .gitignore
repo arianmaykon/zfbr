@@ -1,0 +1,10 @@
+# Netbeans e Eclipse arquivos #
+###################
+nbproject/
+.project
+.buildpath
+.settings
+
+# Arquivos skel .dist #
+###################
+tests/phpunit.xml
