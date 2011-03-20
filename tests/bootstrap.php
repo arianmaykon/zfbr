@@ -8,14 +8,8 @@ if ($phpunitVersion !== '@package_version@' &&
     exit(1);
 }
 
-if (version_compare($phpunitVersion, '3.5.5', '>=')) {
-    require_once 'PHPUnit/Autoload.php'; // >= PHPUnit 3.5.5
-} else {
-    require_once 'PHPUnit/Framework.php'; // < PHPUnit 3.5.5
-}
-
+require_once 'PHPUnit/Autoload.php';
 error_reporting(E_ALL | E_STRICT);
-
 $paths = array(
     realpath(dirname(dirname(__FILE__))) . '/library',
     get_include_path()
